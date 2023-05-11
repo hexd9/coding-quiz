@@ -1,0 +1,96 @@
+* {
+  font-family: monospace;
+  font-size: 20px;
+}
+:root {
+ --button-color: rgb(172, 43, 163);
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 20px 10px auto 10px;
+}
+.high-scores {
+  color: violet;
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+.high-scores:hover {
+  background-color: var(--button-color);
+  color: aliceblue;
+  font-size: 20px;
+  cursor: grab;
+}
+
+.timer {
+  color: violet;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+.timer:hover {
+  background-color: var(--button-color);
+  color: aliceblue;
+  font-size: 20px;
+  cursor: grab;
+}
+
+button {
+    display: inline-block;
+    margin: 5px;
+    cursor: grab;
+    background-color: plum;
+    border-radius: 5px;
+    padding: 2px 10px;
+    color: white;
+    border: 5px;
+    border-color: aliceblue;
+  }
+
+button:hover {
+    background-color: var(--button-color);
+    color:aliceblue;
+    font-size: 30px;
+    cursor: grab;
+}
+
+.answer {
+    display: inline-block;
+    margin: 5px;
+    cursor: grab;
+    background-color: plum;
+    border-radius: 5px;
+    padding: 2px 10px;
+    color: white;
+    border: 5px;
+    border-color: aliceblue;
+}
+
+.answer:hover {
+    background-color: var(--button-color);
+    color:aliceblue;
+    font-size: 30px;
+    cursor: grab;
+}
+body {
+  font-size: large;
+}
+
+.code-quiz {
+  margin: 100px auto auto auto;
+  max-width: 400px;
+}
+
+.hide {
+    display: none;
+}
+
+
+
+
+#all-done {
+  margin: 25px auto auto auto;
+  max-width: 400px;
+}

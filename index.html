@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Timed-Quiz</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+</html>
+    
+<nav class="nav-bar">
+  <!-- Div tags to add High Scores and Timer -->
+  <div class="high-scores">View High Scores</div>
+  <div class="timer">Timer:</div>
+
+</nav>
+
+    <body class="container1">
+        
+        <!-- Coding Quiz Challenge -->
+        <section class="code-quiz">
+          <div id="intro" class="start-pg"></div>
+            <h1>Coding Quiz Challenge</h1>
+            <p>
+            Try to answer the following code-related questions within the time
+            limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!
+            </p>
+            <!-- Start Quiz needs to be hidden -->
+            <button>Start Quiz</button>
+        </section>
+
+        <!-- Questions -->
+        <!-- hide the coding quiz container and show the first question -->
+
+        <section id="questions" class="hide">
+          <!-- Title of Question that will populate -->
+          <h2 id="actual-question"></h2>
+          <!--  -->
+          <div id="answer" class="answer"></div>
+        </section>
+
+        <!-- End Page -->
+        <section id="all-done" class="hide">
+          <h2>All Done!</h2>
+          <!-- Display the final score -->
+          <p>Your final score is</p>
+          <!-- Enter initials -->
+          <p>Enter initials
+            <!-- Submit initials -->
+            Enter initials: <input type="text" id="initials"/>
+            <button>Submit</button>
+          </p>
+        </section>
+
+        <!-- Feedback Section -->
+        <section>
+          <div id="feedback" class="hide feedback"></div>
+        </section>
+
+        <!-- Add Jscript -->
+        <script src="./assets/js/script.js"></script>
+    </body>
+</html>
