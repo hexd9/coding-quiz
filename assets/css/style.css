@@ -37,6 +37,12 @@
   cursor: grab;
 }
 
+h1 {
+    font-size: 30px;
+    color: purple;
+    font-weight: bolder;
+}
+
 button {
     display: inline-block;
     margin: 5px;

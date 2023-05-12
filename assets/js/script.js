@@ -1,13 +1,35 @@
 // When you click start quiz, hide the intro container
 function startQuiz(){
-    var introEl = document.getElementById('intro')
-    introEl.setAttribute('start-pg', 'hide')
+    console.log('function started')
+    var questionCounter = 0;
+    var codeQuizEl = document.querySelector('.code-quiz')
+    codeQuizEl.style.display = 'none';
+
+    var questionsEl = document.querySelector('#questions')
+    questionsEl.style.display = 'block';
+
+    displayquestion(questionCounter)
 }
 // Add click listener to hide the intro container
-    var introEl = document.getElementById('intro');
-    introEl.addEventListener('click', startQuiz);
+    var codeQuizEl = document.querySelector('.code-quiz');
+    codeQuizEl.addEventListener('click', startQuiz);
 // Un-hide questions
 var questionsEl = document.getElementById('questions');
+
+// Display questions
+function displayquestion(counter) {
+    var actualQuestionsEl = document.querySelector('#actual-question')
+    var answerEL = document.querySelector('#answer')
+
+    var questionObjEl = QandA[counter]
+
+    actualQuestionsEl.text = questionObjEl.question
+
+    for (let i = 0; i < questionObjEl.answer; i++) {
+        
+    } 
+    console.log(QandA[counter])
+}
 
 // check if answer is right or wrong
 //If wrong, you decrease amount of time
