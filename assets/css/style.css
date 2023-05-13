@@ -45,7 +45,8 @@ h1 {
 
 button {
     display: inline-block;
-    margin: 5px;
+    margin: 10px;
+    width: 200px;
     cursor: grab;
     background-color: plum;
     border-radius: 5px;
@@ -53,6 +54,7 @@ button {
     color: white;
     border: 5px;
     border-color: aliceblue;
+    box-sizing: border-box;
   }
 
 button:hover {
@@ -62,24 +64,29 @@ button:hover {
     cursor: grab;
 }
 
+
+
 .answer {
     display: inline-block;
-    margin: 5px;
+    margin: 5px auto;
     cursor: grab;
-    background-color: plum;
+    /* background-color: plum; */
     border-radius: 5px;
-    padding: 2px 10px;
+    padding: 4px 10px;
     color: white;
     border: 5px;
     border-color: aliceblue;
 }
 
+
+
 .answer:hover {
-    background-color: var(--button-color);
-    color:aliceblue;
+    /* background-color: var(--button-color); */
+    color: white;
     font-size: 30px;
     cursor: grab;
 }
+/*  */
 body {
   font-size: large;
 }
@@ -93,10 +100,25 @@ body {
     display: none;
 }
 
+#questions #actual-question {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
 
+.answer {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
 
 
 #all-done {
   margin: 25px auto auto auto;
   max-width: 400px;
 }
+

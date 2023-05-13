@@ -27,7 +27,7 @@
             limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!
             </p>
             <!-- Start Quiz needs to be hidden -->
-            <button>Start Quiz</button>
+            <button id="button">Start Quiz</button>
         </section>
 
         <!-- Questions -->
@@ -38,9 +38,7 @@
           <h2 id="actual-question"></h2>
           <!--  -->
           <div id="answer" class="answer">
-            <ol>
-              
-            </ol>
+            
           </div>
         </section>
 
@@ -48,12 +46,12 @@
         <section id="all-done" class="hide">
           <h2>All Done!</h2>
           <!-- Display the final score -->
-          <p>Your final score is</p>
+          <p>Your final score is<span id="final-score"></span></p>
           <!-- Enter initials -->
           <p>Enter initials
             <!-- Submit initials -->
             Enter initials: <input type="text" id="initials"/>
-            <button>Submit</button>
+            <button id="submit-button">Submit</button>
           </p>
         </section>
 
