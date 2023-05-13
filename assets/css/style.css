@@ -3,7 +3,7 @@
   font-size: 20px;
 }
 :root {
- --button-color: rgb(172, 43, 163);
+  --button-color: rgb(172, 43, 163);
 }
 
 .nav-bar {
@@ -38,53 +38,49 @@
 }
 
 h1 {
-    font-size: 30px;
-    color: purple;
-    font-weight: bolder;
+  font-size: 30px;
+  color: purple;
+  font-weight: bolder;
 }
 
 button {
-    display: inline-block;
-    margin: 10px;
-    width: 200px;
-    cursor: grab;
-    background-color: plum;
-    border-radius: 5px;
-    padding: 2px 10px;
-    color: white;
-    border: 5px;
-    border-color: aliceblue;
-    box-sizing: border-box;
-  }
+  display: inline-block;
+  margin: 10px;
+  width: 200px;
+  cursor: grab;
+  background-color: plum;
+  border-radius: 5px;
+  padding: 2px 10px;
+  color: white;
+  border: 5px;
+  border-color: aliceblue;
+  box-sizing: border-box;
+}
 
 button:hover {
-    background-color: var(--button-color);
-    color:aliceblue;
-    font-size: 30px;
-    cursor: grab;
+  background-color: var(--button-color);
+  color: aliceblue;
+  font-size: 30px;
+  cursor: grab;
 }
-
-
 
 .answer {
-    display: inline-block;
-    margin: 5px auto;
-    cursor: grab;
-    /* background-color: plum; */
-    border-radius: 5px;
-    padding: 4px 10px;
-    color: white;
-    border: 5px;
-    border-color: aliceblue;
+  display: inline-block;
+  margin: 5px auto;
+  cursor: grab;
+  /* background-color: plum; */
+  border-radius: 5px;
+  padding: 4px 10px;
+  color: white;
+  border: 5px;
+  border-color: aliceblue;
 }
 
-
-
 .answer:hover {
-    /* background-color: var(--button-color); */
-    color: white;
-    font-size: 30px;
-    cursor: grab;
+  /* background-color: var(--button-color); */
+  color: white;
+  font-size: 30px;
+  cursor: grab;
 }
 /*  */
 body {
@@ -101,7 +97,7 @@ body {
 }
 
 .hide {
-    display: none;
+  display: none;
 }
 
 #questions #actual-question {
@@ -109,7 +105,6 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  
 }
 
 .answer {
@@ -117,12 +112,9 @@ body {
   top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
-  
 }
-
 
 #all-done {
   margin: 25px auto auto auto;
   max-width: 400px;
 }
-
