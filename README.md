@@ -20,6 +20,10 @@ The purpose of this project is to help prepare for technical interview questions
 -View your final score and enter your initials.
 -Click the "Submit" button to save your score.
 
+https://hexd9.github.io/coding-quiz/
+
+![alt text](assets/images/quiz.png)
+
 ## Credits
 
 -Shawn Littrel (Teacher Aide)
