@@ -96,6 +96,10 @@ body {
   max-width: 400px;
 }
 
+.feedback {
+  /* feedback */
+}
+
 .hide {
     display: none;
 }
